@@ -10,122 +10,138 @@
 </p>
 
 
-```markdown
-<p align="center">
-  <a href="https://angular.io/" target="_blank">
-    <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular">
-  </a>
-  <a href="https://nodejs.org/" target="_blank">
-    <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
-  </a>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License">
-</p>
+Here's a premium GitHub README for your `Angular-Calculator` project, designed with a modern, minimal UI and beginner-friendliness in mind.
 
+---
+
+```markdown
 # 🚀 Angular-Calculator
 
-A sleek and intuitive calculator application built with Angular, providing a seamless user experience for all your basic arithmetic needs. Enjoy performing calculations with a modern, responsive interface.
+[![Built with Angular](https://img.shields.io/badge/Built%20with-Angular-DD0031?style=for-the-badge&logo=angular)](https://angular.io)
+[![TypeScript](https://img.shields.io/badge/Language-TypeScript-007ACC?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![Node.js](https://img.shields.io/badge/Runtime-Node.js-339933?style=for-the-badge&logo=node.js)](https://nodejs.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
+
+A sleek and modern calculator application built with Angular, providing an intuitive and responsive experience for all your basic arithmetic needs.
+
+---
 
 ## ✨ Features
 
-*   🔢 **Basic Arithmetic Operations**: Perform addition, subtraction, multiplication, and division effortlessly.
-*   🎨 **Modern & Clean UI**: A user-friendly interface designed for simplicity and ease of use.
-*   📱 **Responsive Design**: Works beautifully across various screen sizes, from desktops to mobile devices.
-*   🔄 **Real-time Calculations**: See your results instantly as you type.
-*   🛠️ **Modular & Scalable Architecture**: Built with Angular's best practices for maintainability.
+*   **Basic Arithmetic:** Effortlessly perform addition, subtraction, multiplication, and division.
+*   **Responsive Design:** Enjoy a consistent and optimized user interface across desktops, tablets, and mobile devices.
+*   **Clean UI/UX:** A minimalist and user-friendly design focused on clarity and ease of use.
+*   **Real-time Calculation:** See results instantly as you input numbers and operations.
+
+---
 
 ## 🧠 Tech Stack
 
-This project is powered by cutting-edge web technologies:
+This project is powered by a robust combination of modern web technologies:
 
-*   **Frontend**: Angular 🅰️
-*   **Runtime & Build**: Node.js 🟩
-*   **Language**: TypeScript 🟦
-*   **Package Manager**: npm 📦
-*   **Styling**: CSS 🎨
+*   **Frontend Framework:** [Angular](https://angular.io/)
+*   **Runtime Environment:** [Node.js](https://nodejs.org/) (for development tooling, build processes, and local server)
+*   **Language:** [TypeScript](https://www.typescriptlang.org/)
+*   **Package Manager:** [npm](https://www.npmjs.com/)
+*   **Styling:** CSS
+
+---
 
 ## ⚙️ Installation
 
-To get this project up and running on your local machine, follow these simple steps.
+To get the Angular-Calculator up and running on your local machine, follow these simple steps.
 
-### Prerequisites
+**Prerequisites:**
 
-Make sure you have the following installed:
+Ensure you have Node.js (which includes npm) installed on your system.
 
-*   [Node.js](https://nodejs.org/) (which includes npm)
-*   [Angular CLI](https://angular.io/cli) (install globally: `npm install -g @angular/cli`)
+*   [Download Node.js](https://nodejs.org/en/download/)
 
-### Steps
+**Steps:**
 
-1.  **Clone the Repository**:
+1.  **Clone the repository:**
     ```bash
     git clone https://github.com/your-username/Angular-Calculator.git
     cd Angular-Calculator
     ```
-2.  **Install Dependencies**:
+    *(Replace `your-username/Angular-Calculator.git` with the actual repository URL)*
+
+2.  **Install dependencies:**
     ```bash
     npm install
     ```
+    This command will download and install all the necessary project dependencies listed in `package.json`.
+
+---
 
 ## ▶️ Usage
 
-Once installed, you can easily run and interact with the Angular Calculator.
+Once installed, you can easily run the application in development mode or build it for production.
 
-### Development Server
+**Development Server:**
 
-Run the application in development mode:
+To launch the application in a local development server with live-reloading:
 
 ```bash
 ng serve
 ```
 
-This will launch the development server. Navigate to `http://localhost:4200/` in your web browser. The app will automatically reload if you change any of the source files.
+Open your web browser and navigate to `http://localhost:4200/`. The application will automatically refresh whenever you make changes to the source files.
 
-### Build for Production
+**Build for Production:**
 
-To build the project for deployment:
+To compile the project for production, generating optimized static files in the `dist/` folder:
 
 ```bash
 ng build
 ```
 
-The build artifacts will be stored in the `dist/` directory.
+The build artifacts will be stored in the `dist/angular-calculator` directory, ready for deployment.
+
+---
 
 ## 📂 Project Structure
 
-A concise overview of the project's file and folder organization:
+A concise overview of the project's key directories and files:
 
-*   `angular.json`: Angular CLI configuration file.
-*   `package.json`: Project dependencies and scripts.
-*   `package-lock.json`: Records the exact versions of dependencies.
-*   `tsconfig.json`: TypeScript configuration for the entire project.
-*   `tsconfig.app.json`: TypeScript configuration for the application.
-*   `tsconfig.spec.json`: TypeScript configuration for test files.
-*   `server.ts`: Entry point for server-side rendering (Angular Universal).
-*   `src/`: Contains all the application's source code.
-    *   `index.html`: The main HTML entry point.
-    *   `main.ts`: The main application entry file for client-side bootstrapping.
-    *   `main.server.ts`: The main application entry file for server-side rendering.
-    *   `styles.css`: Global styles for the application.
-    *   `app/`: Core application components.
-        *   `app.component.html`: Main application component HTML template.
-        *   `app.component.spec.ts`: Unit tests for the main application component.
-        *   `app.config.ts`: Application-level configuration.
+```
+Angular-Calculator/
+├── README.md                  # This README file
+├── angular.json               # Angular CLI configuration for the workspace
+├── package.json               # Project metadata, scripts, and dependencies
+├── package-lock.json          # Exact dependency versions locked for consistency
+├── server.ts                  # Optional: Entry point for server-side logic (e.g., SSR or API)
+├── tsconfig.json              # Base TypeScript configuration for the entire project
+├── tsconfig.app.json          # TypeScript configuration specific to the application
+├── tsconfig.spec.json         # TypeScript configuration specific to tests
+└── src/                       # Contains all application source code
+    ├── index.html             # The main HTML entry point
+    ├── main.ts                # The main entry point for the browser application
+    ├── main.server.ts         # The main entry point for server-side rendering
+    ├── styles.css             # Global styles for the application
+    └── app/                   # Core application components and modules
+        ├── app.component.spec.ts # Unit tests for the main application component
+        ├── app.component.html # HTML template for the main application component
+        └── app.config.ts      # Main configuration for the Angular application
+```
+
+---
 
 ## 🤝 Contributing
 
-Contributions are always welcome! If you have suggestions or want to improve the project, please feel free to:
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-1.  Fork the repository.
-2.  Create a new branch (`git checkout -b feature/your-feature`).
-3.  Make your changes.
-4.  Commit your changes (`git commit -m 'feat: Add new feature X'`).
-5.  Push to the branch (`git push origin feature/your-feature`).
-6.  Open a Pull Request!
+1.  Fork the Project
+2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4.  Push to the Branch (`git push origin feature/AmazingFeature`)
+5.  Open a Pull Request
+
+---
 
 ## 📜 License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the `LICENSE` file in the repository root for more details.
 ```
 
 ---
