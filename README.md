@@ -10,111 +10,106 @@
 </p>
 
 
+Here's a premium GitHub README for your Angular-Calculator project, designed with a modern, minimal UI and beginner-friendly approach.
+
 ```markdown
 <div align="center">
-  <img src="https://raw.githubusercontent.com/angular/angular/master/assets/images/logos/angular/angular.svg" alt="Angular Logo" width="100">
-  <h1>Angular-Calculator</h1>
-  <p>
-    A sleek and responsive calculator built with Angular. Perform basic arithmetic operations with a modern user interface.
-  </p>
+  <img src="https://raw.githubusercontent.com/angular/angular/master/packages/docs/src/assets/images/logos/angular/angular.svg" alt="Angular Logo" width="120">
+  <h1>🚀 Angular-Calculator</h1>
+  <p>A modern, sleek calculator application built with Angular, offering essential arithmetic operations with a clean user interface.</p>
+  <p>Perfect for basic calculations with an intuitive user experience on any device.</p>
+
   <p>
     <a href="https://github.com/your-username/Angular-Calculator/blob/main/LICENSE">
-      <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT">
+      <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT License">
     </a>
-    <a href="https://github.com/your-username/Angular-Calculator/stargazers">
-      <img src="https://img.shields.io/github/stars/your-username/Angular-Calculator?style=social" alt="GitHub stars">
-    </a>
+    <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular Badge">
+    <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js Badge">
   </p>
 </div>
 
 ---
 
 ## ✨ Features
-
--   **Basic Operations:** ➕➖✖️➗ Perform addition, subtraction, multiplication, and division.
--   **Responsive Design:** 📱 Adapts seamlessly to various screen sizes, from mobile to desktop.
--   **Intuitive UI:** ✨ Clean and user-friendly interface for an effortless calculation experience.
--   **Real-time Display:** 📊 See your calculations update instantly as you type.
+*   ➕ **Basic Arithmetic:** Perform addition, subtraction, multiplication, and division effortlessly.
+*   💅 **Clean UI:** Enjoy a modern and intuitive user interface designed for ease of use.
+*   📱 **Responsive Design:** Works beautifully across different screen sizes, from desktops to mobile phones.
+*   ⚡️ **Fast Performance:** Built on Angular for a snappy and efficient user experience.
 
 ## 🧠 Tech Stack
-
--   **Frontend Framework:** [Angular](https://angular.io/)
--   **Backend/Runtime:** [Node.js](https://nodejs.org/) (for development server and potentially server-side rendering)
--   **Language:** [TypeScript](https://www.typescriptlang.org/)
--   **Package Manager:** [npm](https://www.npmjs.com/)
+This project is powered by:
+*   **Angular:** The robust framework for building dynamic single-page applications.
+*   **TypeScript:** A superset of JavaScript, providing type safety and enhanced tooling.
+*   **HTML & CSS:** For structuring and styling the application's interface.
+*   **Node.js:** Used as the JavaScript runtime environment for development and build processes.
 
 ## ⚙️ Installation
-
-Get the project up and running in a few simple steps!
+To get this project running on your local machine, follow these simple steps:
 
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/your-username/Angular-Calculator.git
     ```
-    *(Remember to replace `your-username` with the actual GitHub username and repository name)*
+    *Replace `your-username` with your GitHub username.*
 
 2.  **Navigate into the project directory:**
     ```bash
     cd Angular-Calculator
     ```
 
-3.  **Install dependencies:**
+3.  **Install the dependencies:**
     ```bash
     npm install
     ```
+    *Alternatively, if you prefer Yarn:*
+    ```bash
+    yarn install
+    ```
 
 ## ▶️ Usage
-
-To launch the Angular development server and see the calculator in action:
+Once installed, you can launch the application in development mode:
 
 1.  **Start the development server:**
     ```bash
     npm start
     ```
+    *Or, using the Angular CLI directly:*
+    ```bash
+    ng serve --open
+    ```
+    This command compiles the application and starts a development server. The `--open` flag will automatically open a new browser tab for you.
 
-2.  **Open your browser:**
-    The application will typically be available at `http://localhost:4200/`.
+2.  **Access the application:**
+    Open your web browser and navigate to `http://localhost:4200/`.
 
 ## 📂 Project Structure
+Here's a breakdown of the key files and directories, giving you an overview of the project's architecture:
 
-A concise overview of the project's key files and directories:
-
-```
-Angular-Calculator/
-├── README.md
-├── angular.json
-├── package.json
-├── package-lock.json
-├── server.ts                 # Express server for Angular Universal or API
-├── tsconfig.json
-├── tsconfig.app.json
-├── tsconfig.spec.json
-└── src/
-    ├── index.html            # Main HTML file
-    ├── main.ts               # Application entry point
-    ├── main.server.ts        # Server-side entry point for Angular Universal
-    ├── styles.css            # Global styles
-    └── app/
-        ├── app.component.html    # Calculator UI template
-        ├── app.component.spec.ts # Component tests
-        └── app.config.ts         # Application configuration (standalone APIs)
-```
+*   `README.md`: This very file you are reading!
+*   `angular.json`: Configuration file for the Angular workspace.
+*   `package.json`: Lists project dependencies and defines npm scripts.
+*   `package-lock.json`: Records the exact versions of all installed dependencies.
+*   `server.ts`: Node.js server setup, potentially for Server-Side Rendering (SSR) or API integration.
+*   `tsconfig.json`: Base TypeScript configuration for the project.
+*   `tsconfig.app.json`: TypeScript configuration specifically for the Angular application.
+*   `tsconfig.spec.json`: TypeScript configuration specifically for test files.
+*   `src/`: The main source code directory.
+    *   `src/index.html`: The primary HTML entry point for the application.
+    *   `src/main.ts`: The main entry point for bootstrapping the client-side Angular application.
+    *   `src/main.server.ts`: The entry point for server-side rendering (SSR) if configured.
+    *   `src/styles.css`: Global styles applied across the application.
+    *   `src/app/`: Contains the core application components, modules, and services.
+        *   `src/app/app.component.html`: The main application component's HTML template.
+        *   `src/app/app.component.spec.ts`: Unit tests for the `AppComponent`.
+        *   `src/app/app.config.ts`: Configuration for the application, including dependency injection providers.
+        *   `src/app/app.component.ts`: The main application component logic.
+        *   `src/app/app.routes.ts`: Defines the application's routing configuration.
 
 ## 🤝 Contributing
-
-Contributions are always welcome! 💖 Whether it's bug fixes, new features, or improvements, feel free to:
-
-1.  Fork the repository.
-2.  Create your feature branch (`git checkout -b feature/AmazingFeature`).
-3.  Commit your changes (`git commit -m 'Add some AmazingFeature'`).
-4.  Push to the branch (`git push origin feature/AmazingFeature`).
-5.  Open a Pull Request.
+We welcome contributions! If you have suggestions, bug reports, or want to add a new feature, please feel free to open an issue or submit a pull request. Let's make this calculator even better together!
 
 ## 📜 License
-
-This project is licensed under the **MIT License**. See the `LICENSE` file for more details.
-
----
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 ```
 
 ---
