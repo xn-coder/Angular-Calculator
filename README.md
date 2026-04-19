@@ -10,112 +10,109 @@
 </p>
 
 
-```markdown
-# 🚀 Angular-Calculator
-
-[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
-[![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)](https://angular.io/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-
-A sleek, responsive web calculator built with Angular. Enjoy real-time calculations and a modern user interface, designed for simplicity and efficiency.
+Here's your premium GitHub README for Angular-Calculator with a modern UI:
 
 ---
 
+# 🚀 Angular-Calculator
+
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/your-username/Angular-Calculator/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/your-username/Angular-Calculator.svg?style=social)](https://github.com/your-username/Angular-Calculator/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/your-username/Angular-Calculator.svg?style=social)](https://github.com/your-username/Angular-Calculator/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/your-username/Angular-Calculator.svg)](https://github.com/your-username/Angular-Calculator/issues)
+
+A sleek, responsive calculator application built with Angular, designed for intuitive arithmetic operations. This project leverages Server-Side Rendering (SSR) for enhanced performance and SEO.
+
 ## ✨ Features
 
--   **Intuitive Interface:** Clean and user-friendly design.
--   **Real-time Calculations:** Instant results as you type.
--   **Responsive Design:** Works beautifully on all devices.
--   **Basic Arithmetic:** Supports addition, subtraction, multiplication, and division.
--   **Clear & Delete:** Easy error correction with 'C' (clear) and 'DEL' buttons.
+*   🔢 **Basic Arithmetic**: Perform addition, subtraction, multiplication, and division.
+*   🎨 **Modern UI**: Clean, minimal, and user-friendly interface.
+*   📱 **Responsive Design**: Flawlessly adapts to various screen sizes (desktop, tablet, mobile).
+*   ⚡ **Server-Side Rendering (SSR)**: Faster initial page loads and improved search engine visibility.
+*   🧪 **Robust Testing**: Comprehensive unit tests ensuring reliability.
 
 ## 🧠 Tech Stack
 
-This project leverages a robust modern stack:
+This project is built using a powerful combination of technologies:
 
--   **Frontend:**
-    -   [Angular](https://angular.io/) 🅰️: A powerful framework for building dynamic web applications.
-    -   [TypeScript](https://www.typescriptlang.org/) 📘: A typed superset of JavaScript for enhanced development.
-    -   [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5) & [CSS3](https://developer.mozilla.org/en-US/docs/Glossary/CSS): For structuring and styling the application.
--   **Backend/Runtime:**
-    -   [Node.js](https://nodejs.org/) 🟩: A JavaScript runtime environment, primarily used for the development server and potential Server-Side Rendering (SSR).
+*   **Frontend**: Angular (TypeScript, HTML, SCSS)
+*   **Backend/Server**: Node.js (for Server-Side Rendering with Express.js)
+*   **Tooling**: Angular CLI, npm
 
 ## ⚙️ Installation
 
 To get this project up and running locally, follow these simple steps:
 
-1.  **Prerequisites:**
-    Make sure you have [Node.js](https://nodejs.org/) (which includes npm) installed on your system.
-
-2.  **Clone the Repository:**
+1.  **Prerequisites**: Ensure you have Node.js (LTS version recommended) and npm installed.
     ```bash
-    git clone https://github.com/YOUR_USERNAME/Angular-Calculator.git
+    node -v
+    npm -v
+    ```
+2.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/your-username/Angular-Calculator.git
     cd Angular-Calculator
     ```
-    *(Replace `YOUR_USERNAME` with your GitHub username or the organization's name if you've forked the repo.)*
-
-3.  **Install Dependencies:**
-    Navigate into the project directory and install all required packages.
+3.  **Install dependencies**:
     ```bash
     npm install
-    # or if you prefer yarn:
-    # yarn install
     ```
 
 ## ▶️ Usage
 
-Once installed, you can launch the Angular-Calculator:
+### Development Server
 
-1.  **Start the Development Server:**
-    This command compiles the Angular application and serves it locally.
+Run the client-side application in development mode:
+
+```bash
+ng serve
+```
+
+Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+### Server-Side Rendering (SSR)
+
+To experience the benefits of SSR:
+
+1.  **Build the project for production and SSR**:
     ```bash
-    npm start
-    # or directly with the Angular CLI (if installed globally):
-    # ng serve
+    npm run build
     ```
-    This will typically start the server on `http://localhost:4200/`.
+2.  **Start the SSR server**:
+    ```bash
+    npm run serve:ssr
+    ```
 
-2.  **Access in Browser:**
-    Open your favorite web browser and navigate to `http://localhost:4200/`.
-    The calculator should now be visible and interactive! Enjoy crunching numbers!
+Navigate to `http://localhost:4000/`. This will serve the pre-rendered application from the Node.js server.
 
 ## 📂 Project Structure
 
-A high-level overview of the project's file and directory organization:
+A concise overview of the key directories and files:
 
--   `README.md`: 👋 This documentation file you are reading.
--   `angular.json`: ⚙️ Angular workspace configuration, defining project settings.
--   `package.json`, `package-lock.json`: 📦 Manages project dependencies and scripts.
--   `tsconfig*.json`: 📝 TypeScript configuration files for different environments (app, spec, general).
--   `server.ts`: 🖥️ Node.js server entry point, often used for Server-Side Rendering (SSR) or a simple backend.
--   `src/`: 🧩 Contains the main application source code.
-    -   `index.html`: 🏠 The primary HTML entry point for the single-page application.
-    -   `main.ts`: 🚀 Angular application bootstrapping entry point for the browser.
-    -   `styles.css`: 🎨 Global application styles.
-    -   `main.server.ts`: ⚡ Entry point for Angular Universal (Server-Side Rendering).
-    -   `app/`: 📂 Core application components and modules.
-        -   `app.component.spec.ts`: 🧪 Unit tests for the main app component.
-        -   `app.component.html`: 🖼️ HTML template for the main app component.
-        -   `app.config.ts`: ⚙️ Application-wide configuration and providers.
--   ... (other Angular-generated files/folders like `e2e/`, `environments/`, etc.)
+*   `angular.json`: Angular CLI project configuration.
+*   `package.json`: Project metadata, scripts, and dependencies.
+*   `server.ts`: The Node.js Express server configuration for SSR.
+*   `src/`: Contains all the application source code.
+    *   `app/`: Core Angular components, modules, and services.
+        *   `app.component.html`: Main application layout.
+        *   `app.component.spec.ts`: Unit tests for the root component.
+        *   `app.config.ts`: Application-wide configuration.
+    *   `index.html`: The main HTML entry point.
+    *   `main.ts`: Client-side Angular application bootstrapping.
+    *   `main.server.ts`: Server-side Angular application bootstrapping for SSR.
+    *   `styles.css`: Global styles for the application.
+*   `tsconfig.json`, `tsconfig.app.json`, `tsconfig.spec.json`: TypeScript configuration files.
+*   `README.md`: You are here!
 
 ## 🤝 Contributing
 
-We welcome contributions to make Angular-Calculator even better!
-
-1.  **Fork** the repository.
-2.  **Create** a new branch (`git checkout -b feature/AmazingFeature`).
-3.  **Commit** your changes (`git commit -m 'Add some AmazingFeature'`).
-4.  **Push** to the branch (`git push origin feature/AmazingFeature`).
-5.  **Open a Pull Request**.
-
-Please ensure your code adheres to the project's style guidelines.
+Contributions are always welcome! If you have suggestions or want to improve the project, please fork the repository and open a pull request. Let's make this calculator even better!
 
 ## 📜 License
 
-This project is distributed under the MIT License. See the `LICENSE` file for more information.
-```
+This project is open-source and licensed under the [MIT License](LICENSE).
+
+---
 
 ---
 
