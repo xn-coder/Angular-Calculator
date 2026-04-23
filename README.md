@@ -1,163 +1,112 @@
 
-<h1 align="center">🚀 Campus</h1>
+<h1 align="center">🚀 Angular-Calculator</h1>
 
 
 <p align="center">
   <img src="https://img.shields.io/badge/Tech-Node.js-blue?style=for-the-badge">
-  <img src="https://img.shields.io/github/stars/xn-coder/Campus?style=for-the-badge">
-  <img src="https://img.shields.io/github/last-commit/xn-coder/Campus?style=for-the-badge">
-  <img src="https://img.shields.io/github/license/xn-coder/Campus?style=for-the-badge">
+  <img src="https://img.shields.io/github/stars/xn-coder/Angular-Calculator?style=for-the-badge">
+  <img src="https://img.shields.io/github/last-commit/xn-coder/Angular-Calculator?style=for-the-badge">
+  <img src="https://img.shields.io/github/license/xn-coder/Angular-Calculator?style=for-the-badge">
 </p>
 
 
-Here's a premium GitHub README for your Campus project, designed with a clean, modern UI and beginner-friendly instructions.
-
----
-
-# 🚀 Campus
-
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
-![Tech Stack](https://img.shields.io/badge/Tech-Node.js%20%7C%20Angular%20%7C%20TypeScript-informational?style=flat&logo=angular&logoColor=white)
-
-A dynamic web application designed to streamline campus management and enhance the student experience. Connect, learn, and thrive in a digital environment!
+```markdown
+<div align="center">
+  <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/calculator.svg" alt="Angular Calculator Logo" width="100">
+  <h1>🚀 Angular-Calculator</h1>
+  <p>A sleek, responsive calculator built with Angular, providing essential arithmetic operations for everyday use.</p>
+  <p>
+    <a href="https://github.com/your-username/Angular-Calculator/stargazers">
+      <img src="https://img.shields.io/github/stars/your-username/Angular-Calculator?style=social" alt="GitHub Stars">
+    </a>
+    <a href="https://github.com/your-username/Angular-Calculator/forks">
+      <img src="https://img.shields.io/github/forks/your-username/Angular-Calculator?style=social" alt="GitHub Forks">
+    </a>
+    <a href="https://github.com/your-username/Angular-Calculator/issues">
+      <img src="https://img.shields.io/github/issues/your-username/Angular-Calculator?style=flat-square" alt="GitHub Issues">
+    </a>
+    <img src="https://img.shields.io/github/license/your-username/Angular-Calculator?style=flat-square" alt="License">
+  </p>
+</div>
 
 ---
 
 ## ✨ Features
 
-Campus offers a suite of functionalities to create a connected and efficient academic community:
-
-*   **User Authentication:** 🔐 Secure signup, login, and profile management for students, faculty, and administrators.
-*   **Course Management:** 📚 Browse available courses, view detailed information, and manage enrollments effortlessly.
-*   **Event Calendar:** 🗓️ Stay updated with campus events, workshops, academic deadlines, and social gatherings.
-*   **Announcements Board:** 📢 Real-time updates and important notifications from campus administration and departments.
-*   **Resource Sharing:** 📤 Access study materials, helpful guides, important documents, and shared files.
-*   **Interactive Dashboard:** 📊 Personalized view for users with upcoming assignments, recent activities, and quick links.
-
----
+*   **Basic Arithmetic:** Perform addition, subtraction, multiplication, and division. ➕➖✖️➗
+*   **Responsive Design:** Optimized for seamless use across desktop and mobile devices. 📱💻
+*   **Clear & Delete:** Easily clear the current entry or reset the entire calculation. 🗑️
+*   **Modern UI:** Clean, intuitive interface for a great user experience. ✨
+*   **Server-Side Rendering (SSR):** Powered by Node.js for enhanced performance and SEO with Angular Universal. ⚡
 
 ## 🧠 Tech Stack
 
-This project is built using a powerful and modern combination of technologies for both the frontend and backend:
+This project is meticulously crafted using cutting-edge technologies:
 
-*   **Frontend:**
-    *   ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white) – A robust framework for building dynamic, single-page applications with server-side rendering capabilities.
-    *   ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white) – A superset of JavaScript that adds static types, enhancing code quality and developer experience.
-
-*   **Backend:**
-    *   ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white) – A powerful JavaScript runtime for building scalable and high-performance server-side applications.
-    *   ![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white) – A fast, unopinionated, minimalist web framework for Node.js, making API development straightforward.
-
-*   **Database:**
-    *   Database (e.g., ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white), ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)) – For efficient and persistent data storage. *(You'll integrate your chosen database with the Node.js backend)*
-
----
+*   **Frontend Framework:** <img src="https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white" alt="Angular">
+*   **Backend/SSR:** <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js">
+*   **Language:** <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+*   **Package Manager:** <img src="https://img.shields.io/badge/npm-CB3837?style=flat-square&logo=npm&logoColor=white" alt="npm">
 
 ## ⚙️ Installation
 
-To get Campus running on your local machine, follow these simple steps:
-
-### Prerequisites
-
-Ensure you have the following installed:
-
-*   ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white) (LTS version recommended)
-*   ![npm](https://img.shields.io/badge/npm-CB3837?style=flat&logo=npm&logoColor=white) (comes with Node.js) or ![Yarn](https://img.shields.io/badge/Yarn-2C8EBB?style=flat&logo=yarn&logoColor=white)
-*   ![Angular CLI](https://img.shields.io/badge/Angular_CLI-DD0031?style=flat&logo=angular&logoColor=white) (install globally: `npm install -g @angular/cli`)
-
-### Setup Steps
+Get this project up and running on your local machine!
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/campus.git
-    cd campus
+    git clone https://github.com/your-username/Angular-Calculator.git
+    cd Angular-Calculator
     ```
-
-2.  **Install Dependencies:**
-    This project manages both backend and frontend dependencies in the root `package.json`.
+2.  **Install dependencies:**
     ```bash
     npm install
-    # or yarn install
     ```
-
-3.  **Environment Configuration:**
-    Create a `.env` file in the project root to store your environment variables.
-    ```
-    # Example .env content
-    PORT=3000
-    DATABASE_URL=mongodb://localhost:27017/campusdb
-    # Add other necessary variables like JWT_SECRET, API_KEYS, etc.
-    ```
-    *Ensure your database is running and accessible as per the `DATABASE_URL`.*
-
----
 
 ## ▶️ Usage
 
-Once installed, you can launch the Campus application:
+To run the Angular Calculator locally:
 
-1.  **Start the Backend Server:**
+1.  **Start the development server:**
     ```bash
-    node server.ts
+    npm run start
     ```
-    The backend server will typically start on `http://localhost:3000` (or the `PORT` specified in your `.env` file).
+    Navigate to `http://localhost:4200/` in your browser. The app will automatically reload if you change any of the source files.
 
-2.  **Start the Frontend Development Server:**
+2.  **Run with Server-Side Rendering (SSR):**
     ```bash
-    ng serve --open
+    npm run dev:ssr
     ```
-    This command will compile the Angular application, start a development server, and automatically open the application in your default web browser (usually at `http://localhost:4200`).
-
-3.  **Access the Application:**
-    Open your browser and navigate to `http://localhost:4200` to interact with the Campus application. Enjoy! 🚀
-
----
+    This will compile the project and then serve it using Node.js, usually accessible at `http://localhost:4000/`.
 
 ## 📂 Project Structure
 
-A concise overview of the project's directory and file organization:
+A concise overview of the project's key files and directories:
 
-```
-Campus/
-├── README.md                 # 👋 You are here!
-├── package.json              # 📦 Project dependencies & scripts
-├── package-lock.json         # 🔒 Exact dependency versions for reproducible builds
-├── angular.json              # 📐 Angular workspace configuration
-├── server.ts                 # 🚀 Node.js backend server entry point
-├── tsconfig.json             # ⚙️ TypeScript base configuration for the project
-├── tsconfig.app.json         # 🌐 TypeScript configuration specifically for the Angular app
-├── tsconfig.spec.json        # 🧪 TypeScript configuration for Angular test files
-└── src/                      # 🎨 Angular Frontend Application Source
-    ├── index.html            # 📄 Main HTML file serving the Angular app
-    ├── main.ts               # 🚀 Main entry point for bootstrapping the Angular app
-    ├── main.server.ts        # 🖥️ Entry point for Server-Side Rendering (SSR)
-    ├── styles.css            # 🎨 Global stylesheet for the Angular application
-    └── app/                  # 🧩 Core Angular application components and modules
-        ├── app.component.html    # 🖼️ Main application template (root component's HTML)
-        ├── app.component.spec.ts # 🧪 Unit tests for the root application component
-        └── app.config.ts         # ⚙️ Application-wide configuration (e.g., providers, routes)
-```
-
----
+*   `angular.json`: Angular workspace configuration.
+*   `package.json`: Node.js project manifest and dependency list.
+*   `package-lock.json`: Records the exact versions of dependencies.
+*   `server.ts`: Node.js server entry point for Angular Universal (SSR).
+*   `tsconfig.json`: TypeScript base configuration.
+*   `tsconfig.app.json`: TypeScript configuration specifically for the application.
+*   `tsconfig.spec.json`: TypeScript configuration for unit tests.
+*   `src/`: Main source code directory.
+    *   `src/index.html`: The main HTML entry point.
+    *   `src/main.ts`: Angular application bootstrap.
+    *   `src/main.server.ts`: Angular Universal (SSR) server entry point.
+    *   `src/styles.css`: Global styles for the application.
+    *   `src/app/`: Core application components and logic.
+        *   `src/app/app.component.html`: Main application component template.
+        *   `src/app/app.component.spec.ts`: Unit tests for the main application component.
+        *   `src/app/app.config.ts`: Application-wide configuration (e.g., routing, providers).
 
 ## 🤝 Contributing
 
-We welcome contributions to make Campus even better! If you have suggestions, bug reports, or want to contribute code, please feel free to:
-
-1.  **Fork** this repository.
-2.  **Create a new branch** (`git checkout -b feature/your-feature`).
-3.  **Make your changes** and ensure they adhere to the project's style.
-4.  **Commit your changes** (`git commit -m 'feat: Add new feature'`).
-5.  **Push to the branch** (`git push origin feature/your-feature`).
-6.  **Open a Pull Request** explaining your contribution.
-
----
+We welcome contributions! If you have suggestions or want to improve the calculator, feel free to open an issue or submit a pull request. ✨
 
 ## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
+```
 
 ---
 
